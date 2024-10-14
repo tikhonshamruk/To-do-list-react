@@ -1,0 +1,24 @@
+.main_input{
+    display: grid;
+    grid-template-columns: 600px 100px;
+    justify-content: space-around;
+}
+
+.icon{
+    display: grid;
+    grid-template-columns: 600px 100px;
+    justify-content: space-around;
+    grid-row: 10px;
+}
+.icon_child{
+    margin-left: 10px;
+}
+
+.todo_button{
+    font-size: 20px;
+}
+
+.input_todo{
+    font-size: 20px;
+    margin-left: 10px;
+}
