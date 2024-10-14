@@ -19,7 +19,7 @@ export default function TodoInput(props){
             <button onClick={()=>{
                 changesArray(inputValue);
                 setInputValue('');
-            }} className="todo_button">Add</button>
+            }} className="todo_button">Add me</button>
         </div>
        
         </div>
