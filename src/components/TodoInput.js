@@ -13,7 +13,7 @@ export default function TodoInput(props){
             <input value={inputValue} onChange={(e)=>{
                 setInputValue(e.target.value)
             }
-            } className="input_todo" placeholder="Enter todo..."></input>
+            } className="input_todo" placeholder="Enter todo...."></input>
          </div>
         <div>
             <button onClick={()=>{
